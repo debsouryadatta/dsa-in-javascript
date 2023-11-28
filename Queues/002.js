@@ -1,5 +1,4 @@
 // Circular Queue implementation using Linkedlist
-// New Node should always be a const
 
 class Node {
     constructor(data) {
@@ -66,5 +65,78 @@ class MyCircularQueue {
 
     isFull() {
         return this.size === this.capacity;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// Circular Queue implementation using Arrays
+class MyCircularQueue{
+    constructor(k){
+        this.queue = new Array(k);
+        this.maxSize = k;
+        this.currSize = 0;
+        this.head = -1;
+        this.tail = -1;
+    }
+
+    enQueue(data){
+        if(this.currSize<this.maxSize){
+            if(this.tail<this.maxSize-1){
+                this.tail++;
+            } else{
+                this.tail=0;
+            }
+            this.queue[this.tail] = data;
+            this.currSize++;
+            console.log(this.currSize);
+            if(this.head === -1){
+                this.head = this.tail;
+            }
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    deQueue(){
+        if(this.isEmpty()){
+            this.head = -1;
+            this.tail = -1;
+            return false
+        }
+        this.queue[this.head] = null;
+        if(this.head<this.maxSize-1){
+            this.head++;
+        } else{
+            this.head = 0;
+        }
+        this.currSize--;
+        return true;
+    }
+
+    Front(){
+        console.log(this.queue[this.head]);
+        return this.isEmpty() ? -1 : this.queue[this.head];
+    }
+
+    Rear(){
+        return this.isEmpty() ? -1 : this.queue[this.tail];
+    }
+
+    isEmpty(){
+        return this.currSize === 0;
+    }
+
+    isFull(){
+        return this.currSize === this.maxSize;
     }
 }

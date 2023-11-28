@@ -1,3 +1,4 @@
+// Queue implementation using 2 Stacks
 
 var MyQueue = function() {
     this.stack1 = [];
