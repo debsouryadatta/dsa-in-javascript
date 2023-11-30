@@ -5,3 +5,4 @@
 3. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 4. [Next Greater Element 1](https://leetcode.com/problems/next-greater-element-i/)
 5. [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/) 
+6. [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) -> Revise
