@@ -1,0 +1,1 @@
+For the time being -> Solve 10 easy questions from each topic
