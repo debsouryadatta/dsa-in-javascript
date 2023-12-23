@@ -1,0 +1,6 @@
+## Practice Questions
+
+### Easy
+
+
+### Medium
