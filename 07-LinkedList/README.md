@@ -1,7 +1,10 @@
 ## Practice Questions
 
-1. []()
-2. []()
+### Easy(with dates)
+1. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - 25Dec
 
-3. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
-4. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+
+### Medium(with dates)
+
+2. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - 25Dec
