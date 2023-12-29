@@ -14,3 +14,4 @@
 
 2. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - 25Dec
 7. [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) -28Dec
+9. [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/) - 29Dec
