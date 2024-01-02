@@ -1,30 +1,33 @@
-console.log("Hello World");
+// Implement Stack Using Array
 
-// 402. Remove K Digits
-var removeKdigits2 = function(num, k) {
-    const stack = [];
-    let removed = 0;
-    for(let n of num) {
-        while(stack.length && n < stack[stack.length-1] && removed < k) {
-            stack.pop();
-            removed += 1;
-        }
-        stack.push(n);
+class Stack{
+    constructor(){
+        this.stack = [];
     }
-    
-    // remove all remaining large numbers
-    while(removed < k) {
-        stack.pop();
-        removed += 1;
-    }
-    
-    // remove all beginning zeroes
-    while(stack.length && stack[0] === '0') {
-        stack.shift();
-    }
-    
-    return stack.length ? stack.join('') : '0';
-};
 
+    push(element){
+        return this.stack.push(element);
+    }
 
-console.log(removeKdigits2("1234567890",9));
+    pop(){
+        return this.stack.pop();
+    }
+
+    peek(){
+        return this.stack.at(-1);
+    }
+
+    isEmpty(){
+        return this.stack.length === 0;
+    }
+
+    size(){
+        return this.stack.length;
+    }
+}
+
+let stack1 = new Stack();
+stack1.push(1);
+stack1.push(2);
+stack1.push(3);
+console.log(stack1);
