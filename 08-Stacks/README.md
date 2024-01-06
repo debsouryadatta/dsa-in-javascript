@@ -11,6 +11,6 @@
 
 ### Medium(with dates)
 
-5. [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/) - 02Jan
+5. [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/) - 02Jan 
 
 
