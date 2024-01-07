@@ -8,7 +8,8 @@
 
 # ## Medium(with dates)
 
-1. []() - 06Jan
+1. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) - 06Jan
+2. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) - 06Jan
 
 
 
