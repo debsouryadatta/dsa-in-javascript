@@ -9,10 +9,13 @@
 
 
 
-# ## Medium(with dates)
+### Medium(with dates)
 
 3. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) - 06Jan
 4. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) - 06Jan
+7. [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) - 10Jan
+8. [Path Sum](https://leetcode.com/problems/path-sum/description/) - 11Jan
+
 
 
 
