@@ -16,4 +16,9 @@ var strStr = function(a, b) {
     return -1
 };
 
-console.log(strStr("sadbutsad", "sad"));
+
+//? Another Method
+// var strStr = function(a, b) {
+//     let index = a.indexOf(b);
+//     return index;
+// };

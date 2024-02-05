@@ -11,6 +11,7 @@
 
 ### Medium(with dates)
 
-5. [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/) - 02Jan 
+5. [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/) - 02Jan
+7. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=daily-question&envId=2024-01-30) - 30Jan
 
 

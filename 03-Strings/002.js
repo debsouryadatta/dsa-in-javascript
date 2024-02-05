@@ -1,9 +1,13 @@
 /**
  * @param {string} s
- * @return {boolean}
+ * @return {string}
  */
-var isPalindrome = function(s) {
-    let str = s.replace(/[^a-z0-9]/gi, '').toLowerCase();
-    let rev = str.split("").reverse().join("");
-    return str == rev;
+var reverseWords = function(s) {
+    s = s.trim();
+    let arr = s.split(" ");
+    arr = arr.filter(word=> word!=" " && word!="");
+    console.log(arr);
+    arr.reverse();
+    s = arr.join(" ");
+    return s;
 };

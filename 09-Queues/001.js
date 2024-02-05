@@ -1,53 +1,54 @@
-// Queue implementation using 2 Stacks
+// // Queue implementation using 2 Stacks
 
-var MyQueue = function() {
-    this.stack1 = [];
-    this.stack2 = [];
-};
+// var MyQueue = function() {
+//     this.stack1 = [];
+//     this.stack2 = [];
+// };
 
-/** 
- * @param {number} x
- * @return {void}
- */
-MyQueue.prototype.push = function(x) {
-    if (this.empty()) {
-      return this.stack1.push(x);
-    }
-    while (!this.empty()) {
-      this.stack2.push(this.stack1.pop());
-    }
-    this.stack1.push(x);
-    while(this.stack2.length !== 0 ){
-        this.stack1.push(this.stack2.pop());
-    }
-};
+// /** 
+//  * @param {number} x
+//  * @return {void}
+//  */
+// MyQueue.prototype.push = function(x) {
+//     if (this.empty()) {
+//       return this.stack1.push(x);
+//     }
+//     while (!this.empty()) {
+//       this.stack2.push(this.stack1.pop());
+//     }
+//     this.stack1.push(x);
+//     while(this.stack2.length !== 0 ){
+//         this.stack1.push(this.stack2.pop());
+//     }
+// };
 
-/**
- * @return {number}
- */
-MyQueue.prototype.pop = function() {
-    return this.empty()? null : this.stack1.pop();
-};
+// /**
+//  * @return {number}
+//  */
+// MyQueue.prototype.pop = function() {
+//     return this.empty()? null : this.stack1.pop();
+// };
 
-/**
- * @return {number}
- */
-MyQueue.prototype.peek = function() {
-    return this.empty()? null : this.stack1.at(-1);
-};
+// /**
+//  * @return {number}
+//  */
+// MyQueue.prototype.peek = function() {
+//     return this.empty()? null : this.stack1.at(-1);
+// };
 
-/**
- * @return {boolean}
- */
-MyQueue.prototype.empty = function() {
-    return this.stack1.length === 0;
-};
+// /**
+//  * @return {boolean}
+//  */
+// MyQueue.prototype.empty = function() {
+//     return this.stack1.length === 0;
+// };
 
-/** 
- * Your MyQueue object will be instantiated and called as such:
- * var obj = new MyQueue()
- * obj.push(x)
- * var param_2 = obj.pop()
- * var param_3 = obj.peek()
- * var param_4 = obj.empty()
- */
+// /** 
+//  * Your MyQueue object will be instantiated and called as such:
+//  * var obj = new MyQueue()
+//  * obj.push(x)
+//  * var param_2 = obj.pop()
+//  * var param_3 = obj.peek()
+//  * var param_4 = obj.empty()
+//  */
+
