@@ -11,6 +11,7 @@
 7. [Beautiful String](https://www.codingninjas.com/studio/problems/beautiful-string_1115625) - 04Feb
 8. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - 04Feb
 9. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) - 05Feb
+10. [Given a string, find the next smallest palindrome](https://www.codingninjas.com/studio/problems/given-a-string-find-the-next-smallest-palindrome_874577) - 06Feb
 
 ### Medium
 2. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) - 27Jan

@@ -1,7 +1,7 @@
-For the time being -> Solve 10 easy questions from each topic
+### After 21st Dec
 
-Recursion done -> 10
+Recursion done -> 6
 Linked List done -> 10
 Stack done -> 7
-Tress done -> 11
-Stings done -> 3
+Trees done -> 11
+Stings done -> 10
