@@ -5,7 +5,8 @@
 4. [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) - 11Feb
 5. [Missing Number](https://leetcode.com/problems/missing-number/description/) - 11Feb
 6. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) - 12Feb
-7. 
+7. [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) - 13Feb
+8. [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/) - 15Feb
 
 ### Medium(with dates)
 
@@ -13,4 +14,4 @@
 3. [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/) - 09Feb 
 
 
-JavaScript Binary Search Easy Solution!!❤️
+JavaScript Binary Search Easy Solution!!❤️🔥

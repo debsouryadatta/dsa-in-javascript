@@ -1,7 +1,6 @@
 ## Practice Questions
 
 
-
 ### Easy
 1. [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) - 27Jan
 3. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) - 29Jan

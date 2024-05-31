@@ -17,7 +17,18 @@
 
 
 ### Easy
-
+12. [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/) - 13Feb
 
 
 ### Medium
+
+
+
+
+
+
+
+
+### Sliding Window
+13. [Max Sum Subarray of size K](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) - 18April
+
